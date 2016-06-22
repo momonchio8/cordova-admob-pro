@@ -88,7 +88,7 @@ Wanna quickly see the mobile ad on your simulator or device? Try the following c
     cordova platform add ios
 
     # now add the plugin, cordova CLI will handle dependency automatically
-    cordova plugin add cordova-plugin-admobpro
+    cordova plugin add https://github.com/momonchio8/cordova-admob-pro
 
     # now remove the default www content, copy the demo html file to www
     rm -r www/*;
@@ -105,7 +105,7 @@ Wanna quickly see the mobile ad on your simulator or device? Try the following c
 
 * If use with Cordova CLI:
 ```bash
-cordova plugin add cordova-plugin-admobpro
+cordova plugin add https://github.com/momonchio8/cordova-admob-pro
 ```
 
 If use other tools or online build services, see:
